@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(160deg, #d2efe9 0, #c2e6e0 25%, #b1dbd6 50%, #a0d0cc 75%, #90c7c4 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin-bottom: 1.5em;
+}
+
+.navbar {
+    background-color: #d2efe9;
+    border-bottom:2px solid black;
+}
+
+.navbar-brand {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.nav-item {
+    font-size: 1.5em;
+}
+
+.mtgBanner {
+    width: 50%;
+    margin: auto;
+}
+
+.carousel-inner>.carousel-item>img {
+    width: 700px;
+    height: 500px;
+}
+
+
+.texto__carrocel {
+    font-weight: 1000;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+    color: white;
+    font-size: 1.2em;
+}
+
+.about__imgPlusText {
+    align-items: center;
+}
+
+.texto {
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+.titulo__categorias {
+    margin: 2em 0;
+    font-weight: bold;
+    font-size: 2.6em;
+}
+
+.lojaImg {
+    width: 100%;
+    border-radius: 20%;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.team img {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 1em;
+    border-radius: 50%;
+}
+
+.team__container {
+    width: 300px;
+}
+
+.legenda__team {
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: black;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produtos img { 
+    width:100%;
+    height:400px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1em;
+}
+
+.produtos__container {
+    width: 400px;
+   padding: 30px;
+}
+
+.produtos__container:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.legenda__produtos {
+    font-size: 1.2em;
+    color: black;
+}
+
+.rodape {
+    border-top:2px solid black;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+.rodape__nome__loja {
+    margin-top: 3em;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.rodape__infos {
+    margin-top: 2em;
+}
+
+.rodape__info__titulo{
+    font-weight: bold;
+}
+
+.contato p {
+    margin-bottom: 5px;
+}
